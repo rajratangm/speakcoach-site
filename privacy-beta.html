@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SpeakCoach beta privacy notice</title><link rel="stylesheet" href="style.css"></head><body>
+<h1>SpeakCoach beta privacy notice</h1>
+<p><em>Last updated: 17 October 2026. For invited testers of the SpeakCoach cloud beta (version 0.1.0). This is a beta notice, not a final policy.</em></p>
+<h2>In short</h2>
+<p>When you turn on cloud analysis, your recording is sent over an encrypted connection to be turned into text and analysed by AI. We do not keep the audio file. We keep your result for up to 30 days so the app can show it. You can delete your account and data at any time inside the app.</p>
+<h2>What we collect, and why</h2>
+<ul>
+<li><strong>Account:</strong> your email address and a password (handled by Amazon Cognito) so you can sign in.</li>
+<li><strong>Your voice recording</strong> (only if you allow cloud analysis): sent to our server on Amazon Web Services (Mumbai, India). It is processed in memory and is not saved to disk or to storage by us.</li>
+<li><strong>Transcript and results:</strong> your recording is sent to Groq, an AI provider, to be transcribed. The text, with phone numbers, emails, addresses and similar details masked by an automatic filter (which is not perfect), is sent to an AI model on Groq to write your feedback. The result (scores, tips, masked transcript) is stored for up to 30 days, then deleted.</li>
+<li><strong>Usage counters:</strong> daily and monthly usage limits are kept under a scrambled (hashed) identifier for about 2 months. They contain no recordings or text.</li>
+<li><strong>Technical logs:</strong> short error logs with no recording or text content, kept for about 3 days.</li>
+</ul>
+<h2>Third parties</h2>
+<ul>
+<li><strong>Amazon Web Services:</strong> hosting, sign-in and storage of results.</li>
+<li><strong>Groq:</strong> speech-to-text and the AI feedback model. Groq says it does not keep inference data by default, but it may temporarily log inputs and outputs for up to 30 days to troubleshoot or investigate abuse unless zero data retention is switched on. Its documentation does not state a training policy for your data; its services agreement says it may not train on customer inputs or outputs without permission. We have not yet confirmed every term in writing, which is one reason this is a beta.</li>
+</ul>
+<h2>Camera (optional beta feature)</h2>
+<p>If you turn on camera practice, the camera is used only while you practise. Face and body movement are analysed on your phone. Video and images are not stored or sent anywhere. The feature is experimental and may be inaccurate.</p>
+<h2>Your choices</h2>
+<ul>
+<li><strong>Delete my account</strong> (Settings): deletes your account and results from our server and clears the phone.</li>
+<li><strong>Delete all my data</strong> and <strong>Delete camera practice data</strong> (Settings): clear data on the phone.</li>
+<li><strong>Withdraw consent</strong> (Settings): turns cloud analysis off.</li>
+<li>Ask us by email to delete anything: <a href="mailto:rajratangulab.more@gmail.com">rajratangulab.more@gmail.com</a>.</li>
+</ul>
+<h2>Who it is for</h2>
+<p>People aged 16 and over who have been invited to test. Please do not read out other people's private information, passwords or financial details.</p>
+<p><a href="privacy.html">Privacy policy for the offline demo build</a> · <a href="index.html">Home</a></p>
+</body></html>
